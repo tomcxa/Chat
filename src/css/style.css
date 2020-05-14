@@ -1,0 +1,75 @@
+.unstyle {
+  padding: 5px;
+  margin: 0;
+  list-style: none;
+}
+
+.login {
+  box-sizing: border-box;
+  background-color: khaki;
+  width: 240px;
+  margin: auto;
+  border: 2px solid gray;
+  border-radius: 10px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.login input, .login button{
+  box-sizing: border-box;
+  display: block;
+  padding: 5px 10px;
+  background: none;
+  border: 2px solid gray;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.login input {
+  width: 85%;
+}
+
+.chat-container {
+  display: flex;
+  width: 640px;
+  height: 360px;
+}
+
+.chat-users {
+  flex-shrink: 0;
+  border: 2px solid gray;
+  overflow-x: auto;
+  border-radius: 10px;
+  height: 180px;
+}
+
+.chat-users_user {
+  margin-top: 15px;
+  vertical-align: middle;
+}
+
+.chat-users_user::before {
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 2px solid black;
+  border-radius: 50%;
+  background-color: greenyellow;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.chat-msg {
+  border: 2px solid gray;
+  border-radius: 10px;
+  overflow-x: auto;
+}
+
+.msg {
+  margin-right: 30%;
+}
+
+.you {
+  margin-left: 30%;
+}
